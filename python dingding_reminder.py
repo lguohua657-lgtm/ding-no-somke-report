@@ -7,7 +7,7 @@ DINGDING_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=fb4678afbd
 
 def send_smoking_reminder():
     """
-    发送吸烟有害健康提醒（包含必过安检关键词：机器人提醒）
+    是时候调整广告了（包含必过安检关键词：机器人提醒）
     """
     # 请求头
     headers = {"Content-Type": "application/json"}
@@ -16,7 +16,7 @@ def send_smoking_reminder():
     message = {
         "msgtype": "text",
         "text": {
-            "content": "机器人提醒：吸烟有害健康！"
+            "content": "机器人提醒：是时候调整广告了！"
         }
     }
 
